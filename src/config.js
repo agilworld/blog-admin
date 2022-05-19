@@ -1,19 +1,19 @@
 export default {
     authBasic: {
-        usr:"Padar-Backend",
-        pwd:"$2b$10$PYVB07qecOup.EszlQsLsO/yf1mxLyP4IqBx/GzibyZnUuEDuYDmq"
+        usr:"",
+        pwd:""
     },
-    gmApiKey:'AIzaSyA-UWJIZmgmu_tspH_09ISIsvjAyytKIwY',
-    tokenKey: "huni0admin_jwt",
+    gmApiKey:'',
+    tokenKey: "t",
     lang_id: "en",
-    cipher_crypt: "0120xuaqhnk",
+    cipher_crypt: "",
     prefixes: {
-        merchant: "_q5mct_",
-        user: "_q5usr_",
-        category: "_q5ctgr_"
+        merchant: "",
+        user: "",
+        category: ""
     },
     uploadImage:{
-        minSize:5000,
-        maxSize:6291456,
+        minSize:1,
+        maxSize:20,
     }
 }
