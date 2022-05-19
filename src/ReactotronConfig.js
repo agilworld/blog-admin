@@ -2,7 +2,7 @@ import Reactotron from 'reactotron-react-js'
 import { reactotronRedux } from 'reactotron-redux'
 
 const reactotron = Reactotron
-  .configure({ name: 'Huni Admin Debugging' }) // we can use plugins here -- more on this later
+  .configure({ name: 'Blog Admin Debugging' }) // we can use plugins here -- more on this later
   .use(reactotronRedux()) 
   .connect() // let's connect!
 
